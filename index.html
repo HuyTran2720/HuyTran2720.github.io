@@ -4,12 +4,83 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Website</title>
+        <title> My Personal Website </title>
     </head>
-    
+
     <body>
-        <h1>Welcome to My Website!</h1>
-        <p>This is hosted using GitHub Pages.</p>
+
+        <!-- Background -->
+        <div class="page">
+
+            <!-- Top Nav -->
+            <div class="header">
+                <div class="topNav">
+                    <button class="tab" onclick="openTab(event, 'home')"> Home </button>
+                    <button class="tab" onclick="openTab(event, 'about')"> About Me </button>
+                    <button class="tab" onclick="openTab(event, 'projects')"> Projects </button>
+                    <button class="tab" onclick="openTab(event, 'contact')"> Contact </button>
+                </div>
+            </div>
+
+            <!-- Main Page Content -->
+             <!-- ! GIVE ALL BUTTONS ICONS -->
+            <div class="content">
+                
+                <!-- Home -->
+                <div id="home" class="tabcontent" style="display: block;">
+
+                    <div>
+                        <h4> Hi 👋 I'm </h4>
+                        <h1> Huy (hoo-wee)</h1>
+                        <h4> Full Stack Developer </h4>
+                        <p> 📍 Melbourne, Australia </p>
+
+                        <div>
+                            <button class="tab" onclick="openTab(event, 'about')"> About </button>
+                            <button> GitHub </button>
+                            <button> LinkedIn </button>
+                            <button> Resume </button> <!-- make this downloadable -->
+                        </div>
+                    </div>
+                    <div>
+                        <h3> Current Technologies </h3>
+                        <p> here should be images of the languages </p>
+
+                        <h3> CHANGE: have 3 tabs showing images projects </h3>
+                    </div>
+
+                </div>
+
+                <!-- About Me -->
+                <div id="about" class="tabcontent">
+                    <h1> About Me </h1>
+                </div>
+
+                <!-- Projects -->
+                <div id="projects" class="tabcontent">
+                    <h1> Projects </h1>
+                </div>
+
+                <!-- Contact -->
+                <div id="contact" class="tabcontent">
+                    <h1> Contact </h1>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+            </div>
+
+        </div>
+
+        <script src="myScript.js"></script>
+        <script>
+            window.onload = function() {
+                document.getElementsByClassName("tab")[0].click();
+            };
+        </script>
+
     </body>
 
 </html>
