@@ -5,22 +5,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> My Personal Website </title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
-        <!-- Background -->
-        <div class="page">
+        <!-- Top Nav -->
+        <div class="topNav">
+            <button class="tab" onclick="openTab(event, 'home')"> Home </button>
+            <button class="tab" onclick="openTab(event, 'about')"> About Me </button>
+            <button class="tab" onclick="openTab(event, 'projects')"> Projects </button>
+            <button class="tab" onclick="openTab(event, 'contact')"> Contact </button>
+        </div>
 
-            <!-- Top Nav -->
-            <div class="header">
-                <div class="topNav">
-                    <button class="tab" onclick="openTab(event, 'home')"> Home </button>
-                    <button class="tab" onclick="openTab(event, 'about')"> About Me </button>
-                    <button class="tab" onclick="openTab(event, 'projects')"> Projects </button>
-                    <button class="tab" onclick="openTab(event, 'contact')"> Contact </button>
-                </div>
-            </div>
+        <!-- Background -->
+        <div class="animatedBackground"></div>
+            
+        <!-- Actual Page -->
+        <div class="page">
 
             <!-- Main Page Content -->
              <!-- ! GIVE ALL BUTTONS ICONS -->
@@ -36,7 +38,7 @@
                         <p> 📍 Melbourne, Australia </p>
 
                         <div>
-                            <button class="tab" onclick="openTab(event, 'about')"> About </button>
+                            <button class="tabs" onclick="openTab(event, 'about')"> About </button>
                             <button> GitHub </button>
                             <button> LinkedIn </button>
                             <button> Resume </button> <!-- make this downloadable -->
@@ -44,7 +46,7 @@
                     </div>
                     <div>
                         <h3> Current Technologies </h3>
-                        <p> here should be images of the languages </p>
+                        <p> here should be images of the languages and frameworks </p>
 
                         <h3> CHANGE: have 3 tabs showing images projects </h3>
                     </div>
