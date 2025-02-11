@@ -52,6 +52,8 @@ body {
 }
 
 .topNav {
+    position: fixed;
+    top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,25 +61,37 @@ body {
 
     gap: 10px;
     width: 30%;
-    height: 20%;
+    height: fit-content;
     background-color: white;
     border-radius: 27px;
-    padding: 10px;
+    padding: 5px;
 
     white-space: nowrap;
     margin-bottom: auto;
 }
 
+.content {
+    height: 2000px;
+}
+
 .tab {
     flex: 1;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 30%;
+    width: 20%;
     border-radius: 20px;
+    height: 35px;
     font-size: 15px;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px; 
+    padding: 5px 5px; 
+    -webkit-text-stroke: 0.3px;
+
+    
+    border: transparent;
+    background-color: transparent;
+    
 
     
     transition:
@@ -101,6 +115,8 @@ body {
 }
 
 .page {
+    padding-top: 60px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: white;
+    overflow: auto;
 }
