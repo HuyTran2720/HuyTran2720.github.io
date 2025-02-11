@@ -6,6 +6,10 @@
     --size: 20px;
 }
 
+html, body {
+    overflow: hidden; /* Prevents scrollbars appearing during load */
+}
+
 body {
     display: grid;
     place-items: center;
@@ -31,10 +35,6 @@ body {
     -webkit-animation: flicker 20s infinite linear;
             animation: flicker 20s infinite linear;
     z-index: -1;        
-}
-
-.tabcontent {
-    display: none;
 }
 
 @-webkit-keyframes flicker {

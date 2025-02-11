@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> My Personal Website </title>
         <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        >
     </head>
 
     <body>
@@ -55,12 +59,17 @@
                 <div id="home" class="tabcontent" style="display: block;">
 
                     <div>
-                        <h4> Hi 👋 I'm </h4>
-                        <h1> Huy (hoo-wee)</h1>
-                        <h4> Full Stack Developer </h4>
-                        <p> 📍 Melbourne, Australia </p>
+                        <h4 class="animate__animated animate__bounceInRight"> Hi 👋 I'm </h4>
+                        <h1 class="animate__animated animate__bounceInRight animate__delay-1s"> Huy (hoo-wee)</h1>
+                        <h4 class="animate__animated animate__bounceInRight animate__delay-2s"> Full Stack Web Developer </h4>
+                        <p class="animate__animated animate__bounceInRight animate__delay-3s"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                            </svg>
+                             Melbourne, Australia 
+                        </p>
 
-                        <div>
+                        <div class="profileButtons">
                             <button onclick="openTab(event, 'about')"> 
                                 About 
                             </button>
