@@ -87,12 +87,9 @@ body {
     flex-direction: row;
     padding: 5px 5px; 
     -webkit-text-stroke: 0.3px;
-
     
     border: transparent;
     background-color: transparent;
-    
-
     
     transition:
         flex 0.3s ease-in-out, 
@@ -112,6 +109,10 @@ body {
 .tab.active {
     background-color: black;
     color: white;
+}
+
+.tab svg {
+    margin-right: 5px;
 }
 
 .page {
