@@ -80,13 +80,24 @@ body {
     padding: 10px 10px; 
 
     
-    transition: flex 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    transition:
+        flex 0.3s ease-in-out, 
+        font-size 0.3s ease-in-out,
+        background-color 0.3s ease-in-out, 
+        color 0.3s ease-in-out;
 }
 
 .tab:hover {
     font-size: 17px;
     flex: 2;
+    background-color: black;
+    color: white;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.tab.active {
+    background-color: black;
+    color: white;
 }
 
 .page {
