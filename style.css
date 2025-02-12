@@ -164,10 +164,17 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .dropbtn {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+  }
   
   .dropdown:hover .dropbtn {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 
   .download-button {
@@ -241,5 +248,31 @@ body {
     100% {
       transform: translateY(0%);
     }
+  }
+
+  .linkedIn {
+    color: white;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .linkedIn:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .aboutButton {
+    display: flex;
+    align-items: center;
+    color: white;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .aboutButton:hover {
+    color: black;
+    background-color: white;
   }
   
