@@ -178,6 +178,7 @@ body {
   }
 
   .download-button {
+    background-color: transparent;
     position: relative;
     border-width: 0;
     color: white;
@@ -198,11 +199,12 @@ body {
     border-radius: 4px;
     z-index: 1;
     background-color: #242a35;
-    border: solid 1px #e8e8e82d;
+    background-color: transparent; /* ! REMOVE */
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
   
   .download-button:hover {
+    background-color: transparent;
     box-shadow:
       rgba(0, 0, 0, 0.25) 0px 54px 55px,
       rgba(0, 0, 0, 0.12) 0px -12px 30px,
@@ -212,6 +214,7 @@ body {
   }
   
   .download {
+    color: transparent;
     position: absolute;
     inset: 0;
     display: flex;
@@ -222,12 +225,14 @@ body {
     z-index: -1;
     border-radius: 4px;
     transform: translateY(0%);
-    background-color: #01e056;
-    border: solid 1px #01e0572d;
+    background-color: transparent;
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
   
   .download-button:hover .download {
+    color: white;
+    background-color: #01e056;
+    border: solid 1px #01e0572d;
     transform: translateY(100%);
   }
   
@@ -269,10 +274,17 @@ body {
     border: transparent;
     background-color: transparent;
     border-radius: 5px;
+    gap: 5px;
   }
 
   .aboutButton:hover {
     color: black;
     background-color: white;
+  }
+
+  .profileButtons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
   
