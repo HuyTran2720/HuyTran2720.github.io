@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> My Personal Website </title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="particle.css">
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -57,6 +58,18 @@
         <!-- Actual Page -->
         <div class="page">
 
+            <!-- landing page -->
+            <section id="landing" class="page-section">
+                <div class="particles-container">
+                    <div id="particles-js"></div> 
+                    <div class="count-particles"> 
+                        <span class="js-count-particles"></span>
+                    </div> 
+                    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+                    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+                </div>
+            </section>
+
             <!-- Main Page Content -->
              <!-- ! GIVE ALL BUTTONS ICONS -->
             <div class="content">
@@ -76,16 +89,9 @@
                     </a>
                 </div>
                 -->
-
-                <div id="landing">
-
-                </div>
                 
                 <!-- Home -->
                 <div id="home">
-
-                    <!-- Background -->
-                    <div class="animatedBackground"></div>
 
                     <div>
                         <h4 class="animate__animated animate__bounceInRight"> Hi 👋 I'm </h4>
