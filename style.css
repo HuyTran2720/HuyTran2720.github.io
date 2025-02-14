@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -54,9 +54,8 @@ body {
     place-items: center;
     min-height: 100vh;
     background: hsl(0 0% 6%);
+    background-color: black;
 }
-
-
 
 .topNav {
     position: fixed;
@@ -96,7 +95,7 @@ a:hover {
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
-a.tab.active {
+a.active {
   background-color: black;
   color: white;
 }
@@ -282,10 +281,10 @@ a.tab.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ccc;
   }
 
   #landingText {
+    pointer-events: none;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 400%;
     position: absolute;
@@ -293,8 +292,20 @@ a.tab.active {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
+    z-index: 100;
     padding: 10px;
+}
+
+#landingSub {
+  pointer-events: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 200%;
+  position: absolute;
+  color: white;
+  top: 55%;
+  left: 40%;
+  z-index: 100;
+  padding: 10px;
 }
 
 .cssanimation, .cssanimation span {
