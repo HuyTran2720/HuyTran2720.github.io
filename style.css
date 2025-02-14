@@ -95,7 +95,7 @@ a:hover {
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
-a.active {
+a.tab.active {
   background-color: black;
   color: white;
 }
@@ -289,7 +289,7 @@ a.active {
     font-size: 400%;
     position: absolute;
     color: white;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
@@ -302,10 +302,36 @@ a.active {
   font-size: 200%;
   position: absolute;
   color: white;
-  top: 55%;
-  left: 40%;
+  top: 50%;
+  left: 42%;
   z-index: 100;
   padding: 10px;
+}
+
+#landingButtons {
+  pointer-events: none;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: fit-content;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 9999;
+
+  border-color: transparent;
+}
+
+#landingButtons button {
+  pointer-events: all;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cssanimation, .cssanimation span {
@@ -322,4 +348,9 @@ a.active {
       transform: translateY(-100%);
   }
   to { opacity: 1 }
+}
+
+/* fix this */
+#resumeButton {
+  border-radius: 10px;
 }
