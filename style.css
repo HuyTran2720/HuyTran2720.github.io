@@ -149,6 +149,7 @@ a.tab.active {
     min-height: 100vh;
     height:max-content;
     scroll-snap-type: y mandatory;
+    position: relative;
 }
 
 .githubButton {
@@ -297,6 +298,11 @@ a.tab.active {
     align-items: center;
   }
 
+  #landing {
+    position: relative;
+    z-index: 2;
+}
+
   #landingText {
     pointer-events: none;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -373,4 +379,9 @@ a.tab.active {
   transform: scale(1.2);
   color: black;
   background-color: white;
+}
+
+.content {
+  position: relative;
+  z-index: 9999;
 }
