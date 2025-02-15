@@ -72,7 +72,7 @@ body {
     border-radius: 27px;
     padding: 5px;
 
-    z-index: 1;
+    z-index: 100;
     white-space: nowrap;
     margin-bottom: auto;
 }
@@ -292,7 +292,7 @@ a.tab.active {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 100;
+    z-index: 99;
     padding: 10px;
 }
 
@@ -304,7 +304,7 @@ a.tab.active {
   color: white;
   top: 50%;
   left: 42%;
-  z-index: 100;
+  z-index: 99;
   padding: 10px;
 }
 
@@ -319,7 +319,7 @@ a.tab.active {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  z-index: 9999;
+  z-index: 99;
 
   border-color: transparent;
 }
