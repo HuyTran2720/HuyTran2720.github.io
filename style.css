@@ -159,6 +159,7 @@ a.tab.active {
 }
 
 .githubButton:hover {
+  cursor: pointer;
   transform: scale(1.2);
   background-color: transparent;
 }
@@ -262,6 +263,7 @@ a.tab.active {
   }
 
   .linkedIn:hover {
+    cursor: pointer;
     transform: scale(1.2);
     background-color: transparent;
   }
@@ -367,6 +369,7 @@ a.tab.active {
 }
 
 #resumeButton:hover {
+  cursor: pointer;
   transform: scale(1.2);
   color: black;
   background-color: white;
