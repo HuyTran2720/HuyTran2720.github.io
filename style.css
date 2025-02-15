@@ -151,6 +151,18 @@ a.tab.active {
     scroll-snap-type: y mandatory;
 }
 
+.githubButton {
+  border: transparent;
+  background-color: transparent;
+  color: white;
+  border-radius: 50%;
+}
+
+.githubButton:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+}
+
   .dropbtn {
     border: transparent;
     background-color: transparent;
@@ -236,7 +248,7 @@ a.tab.active {
       transform: translateY(-15%);
     }
   
-    100% {
+    100% {  
       transform: translateY(0%);
     }
   }
@@ -250,8 +262,8 @@ a.tab.active {
   }
 
   .linkedIn:hover {
-    color: black;
-    background-color: white;
+    transform: scale(1.2);
+    background-color: transparent;
   }
   
   .aboutButton {
@@ -350,7 +362,12 @@ a.tab.active {
   to { opacity: 1 }
 }
 
-/* fix this */
 #resumeButton {
-  border-radius: 10px;
+  border-radius: 30px !important;
+}
+
+#resumeButton:hover {
+  transform: scale(1.2);
+  color: black;
+  background-color: white;
 }
