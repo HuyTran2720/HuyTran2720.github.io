@@ -256,10 +256,10 @@
       725px 804px #ffffff, 1600px 699px #ffffff, 357px 581px #ffffff,
       266px 1713px #ffffff, 848px 1749px #ffffff, 1963px 1045px #ffffff,
       119px 1136px #ffffff;
-    -webkit-animation: animStar 50s linear infinite;
-    -moz-animation: animStar 50s linear infinite;
-    -ms-animation: animStar 50s linear infinite;
-    animation: animStar 50s linear infinite;
+    -webkit-animation: animStar 30s linear infinite;
+    -moz-animation: animStar 30s linear infinite;
+    -ms-animation: animStar 30s linear infinite;
+    animation: animStar 30s linear infinite;
   }
   
   #stars:after {
