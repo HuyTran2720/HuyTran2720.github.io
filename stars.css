@@ -256,10 +256,10 @@
       725px 804px #ffffff, 1600px 699px #ffffff, 357px 581px #ffffff,
       266px 1713px #ffffff, 848px 1749px #ffffff, 1963px 1045px #ffffff,
       119px 1136px #ffffff;
-    -webkit-animation: animStar 30s linear infinite;
-    -moz-animation: animStar 30s linear infinite;
-    -ms-animation: animStar 30s linear infinite;
-    animation: animStar 30s linear infinite;
+    -webkit-animation: animStar 40s linear infinite;
+    -moz-animation: animStar 40s linear infinite;
+    -ms-animation: animStar 40s linear infinite;
+    animation: animStar 40s linear infinite;
   }
   
   #stars:after {
@@ -892,4 +892,158 @@
       transform: translateY(-6000px);
     }
   }
+
+  .circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #6f7070;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+  }
+  .moon1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: -28px 0 0 0 #929696;
+    position: absolute;
+    left: 88px;
+    top: 40px;
+  }
+  .shape {
+    width: 14px;
+    height: 30px;
+    border-radius: 50% 50% 50% 50% / 52% 52% 48% 48%;
+    background-color: #6f7070;
+    position: absolute;
+    left: 86px;
+    top: 76px;
+    border: 8px solid #6f7070;
+    transform: rotate(26deg);
+  }
+  .circle2 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #929696;
+    position: absolute;
+    left: 70px;
+    top: 66px;
+  }
+  .rectangle {
+    width: 20px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 48px;
+    top: 107px;
+  }
+  .rectangle2 {
+    width: 46px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 56px;
+    top: 136px;
+  }
+  .rectangle3 {
+    width: 10px;
+    height: 4px;
+    background: #6f7070;
+    border-radius: 2px;
+    position: absolute;
+    left: 68px;
+    top: 122px;
+  }
+  .rectangle4 {
+    width: 10px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 94px;
+    top: 122px;
+  }
+  .rectangle5 {
+    width: 84px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 110px;
+    top: 122px;
+  }
+  .rectangle6 {
+    width: 10px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 202px;
+    top: 122px;
+  }
+  .rectangle7 {
+    width: 10px;
+    height: 4px;
+    background: #929696;
+    border-radius: 2px;
+    position: absolute;
+    left: 210px;
+    top: 90px;
+  }
+  .rectangle8 {
+    width: 32px;
+    height: 6px;
+    background: #929696;
+    border-radius: 3px;
+    position: absolute;
+    left: 194px;
+    top: 100px;
+  }
+  .rectangle9 {
+    width: 12px;
+    height: 6px;
+    background: #929696;
+    border-radius: 3px;
+    position: absolute;
+    left: 140px;
+    top: 146px;
+  }
+  .rectangle10 {
+    width: 30px;
+    height: 6px;
+    background: #929696;
+    border-radius: 3px;
+    position: absolute;
+    left: 154px;
+    top: 156px;
+  }
+  .rectangle11 {
+    width: 26px;
+    height: 6px;
+    background: #929696;
+    border-radius: 3px;
+    position: absolute;
+    left: 194px;
+    top: 156px;
+  }
+  .float {
+    animation: float 3s linear infinite;
+    transform-origin: 50% 50%;
+  }
+   @keyframes float {
+   0% {
+  transform: translateY(0)
+  }
+   50% {
+  transform: translateY(-10px)
+  }
+   100% {
+  transform: translateY(0)
+  }
+  }
+  
   
