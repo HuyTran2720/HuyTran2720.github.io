@@ -72,7 +72,7 @@ body {
     border-radius: 27px;
     padding: 5px;
 
-    z-index: 999;
+    z-index: 999 !important;
     white-space: nowrap;
     margin-bottom: auto;
 }
@@ -142,6 +142,7 @@ a.tab.active {
 }
 
 .page {
+    z-index: 1 !important;
     padding-top: 60px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: white;

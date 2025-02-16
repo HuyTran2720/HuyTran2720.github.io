@@ -1,5 +1,5 @@
 .full-wh {
-    z-index: 1;
+    z-index: 1 !important;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -8,7 +8,7 @@
   }
   
   .bg-animation {
-    z-index: 1;
+    z-index: 1 !important;
     position: fixed;
     top: 0;
     left: 0;
