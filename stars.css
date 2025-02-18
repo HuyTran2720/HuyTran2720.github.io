@@ -256,10 +256,10 @@
       725px 804px #ffffff, 1600px 699px #ffffff, 357px 581px #ffffff,
       266px 1713px #ffffff, 848px 1749px #ffffff, 1963px 1045px #ffffff,
       119px 1136px #ffffff;
-    -webkit-animation: animStar 40s linear infinite;
-    -moz-animation: animStar 40s linear infinite;
-    -ms-animation: animStar 40s linear infinite;
-    animation: animStar 40s linear infinite;
+    -webkit-animation: animStar 50s linear infinite;
+    -moz-animation: animStar 50s linear infinite;
+    -ms-animation: animStar 50s linear infinite;
+    animation: animStar 50s linear infinite;
   }
   
   #stars:after {
@@ -823,7 +823,7 @@
 
   @-webkit-keyframes Star3 {
     from {
-      -webkit-transform: translateY(-3780px);
+      -webkit-transform: translateY(-3980px);
     }
     to {
       -webkit-transform: translateY(-4000px);
@@ -832,7 +832,7 @@
   
   @-moz-keyframes Star3 {
     from {
-      -moz-transform: translateY(-3780px);
+      -moz-transform: translateY(-3980px);
     }
     to {
       -moz-transform: translateY(-4000px);
@@ -841,7 +841,7 @@
   
   @-ms-keyframes Star3 {
     from {
-      -ms-transform: translateY(-3780px);
+      -ms-transform: translateY(-3980px);
     }
     to {
       -ms-transform: translateY(-4000px);
@@ -850,7 +850,7 @@
   
   @keyframes Star3 {
     from {
-      transform: translateY(-3780px);
+      transform: translateY(-3980px);
     }
     to {
       transform: translateY(-4000px);
